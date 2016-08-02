@@ -1,0 +1,61 @@
+* {
+    font-size: 110%;
+}
+
+body {
+    background: palevioletred;
+}
+
+#abc.myclassname {
+    border: 2px solid black;
+}
+
+.myimg {
+    border: 5px solid black;
+}
+
+.myclassname {
+    width: 200px;
+    height: 200px;
+    background: blanchedalmond;
+}
+
+.par {
+    color: aquamarine;
+}
+
+.boldpar {
+    font-weight: bold;   
+}
+
+.small {
+    font-style: italic;
+}
+
+.myclassname .mcn {
+    background: red;
+}
+
+.myclassname .par.small, .newpar {
+    font-size: 32px;
+}
+
+.myclassname > .par.small {
+    font-size: 22px;
+}
+
+.newpar {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myclassname + .mcn {
+    width: 1000px;
+}
+
+.mcn ~ .par {
+    text-transform: uppercase;
+}
+
+input[placeholder] {
+    height: 50px;
+}
